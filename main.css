@@ -1,0 +1,290 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+html {
+    background-color: #ccc;
+}
+
+.container {
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header {
+    background-color: rgb(59, 59, 165);
+    padding: 8px;
+    color: #fff;
+}
+
+.menu li {
+    display: block;
+}
+
+li {
+    cursor: pointer;
+}
+
+.menu {
+    display: inline;
+    padding: 0 5px;
+}
+
+.sobre img {
+    width: 300px;
+    height: 300px;
+    margin-top: 30px;
+}
+
+.sobre h2 {
+    padding-bottom: 15px;
+}
+
+.sobre p {
+    width: 100%;
+    max-width: 500px;
+    border-top: 2px solid rgb(59, 59, 165);
+    margin-top: 60px;
+}
+
+.sobre {
+    display:flex;
+    align-items: center;
+    
+}
+
+h2 {
+    position: relative;
+    bottom: 115px;
+    left: 40px;
+    color: rgb(59, 59, 165);
+}
+
+p {
+    position: relative;
+    right: 85px;
+    bottom: 50px;
+}
+
+.produtos h3 {
+    color:rgb(59, 59, 165) ;
+    border-bottom: 2px solid rgb(59, 59, 165);
+    margin-top: 55px;
+}
+
+.produtos {
+    width: 100%;
+    max-width: 845px;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
+
+.imagem {
+    display: grid;
+    grid-template-columns: repeat(4, 21%);
+    margin-top: 35px;
+}
+
+.imagem img {
+    margin-bottom: 40px;
+}
+
+button {
+    width: 90%;
+    padding:5px 0;
+    margin-top: 15px;
+    border: none;
+    color: #fff;
+    background-color: rgb(59, 59, 165);
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+@media screen and (max-width: 767px) {
+
+    
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container {
+    width: 90%;
+    max-width: 767px;
+    margin: 0 auto;
+}
+
+.sobre {
+    display: block;
+}
+
+
+h2 {
+    position: relative;
+    top: 10px;
+    right: 300%;
+}
+
+.sobre img {
+    width: 300px;
+    height: 300px;
+    margin-top: 30px;
+    margin-left:3px;
+}
+
+.sobre p {
+    width: 100%;
+    max-width: 300px;
+    border-top: 2px solid rgb(59, 59, 165);
+    margin-top: 60px;
+    margin-left: 85px;
+}
+
+.sobre img h2 {
+}
+
+.imagem, .produtos h3 {
+    display: grid;
+    grid-template-columns: repeat(1, 70%);
+    margin-top: 35px;
+    position: relative;
+    right: 18px;
+}
+
+.imagem img {
+    margin-top: 10px;
+}
+
+button {
+    width: 90%;
+    padding:5px 0;
+    margin-bottom: 5px;
+    border: none;
+    color: #fff;
+    background-color: rgb(59, 59, 165);
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.produtos h3 {
+    margin-bottom: px;
+}
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+    .container {
+        width: 100%;
+        max-width: 1023px;
+        margin: 0 auto;
+    }
+    
+
+    header {
+        background-color: rgb(59, 59, 165);
+        padding: 8px;
+        color: #fff;
+        padding: 15px;
+        width: 100%;
+    }
+    
+
+    .sobre img {
+        width: 650px;
+        height: 650px;
+        margin-top: 30px;
+        position: relative;
+        left: 80px;
+    }
+
+    .sobre p {
+        width: 100%;
+        max-width: 650px;
+        border-top: 2px solid rgb(59, 59, 165);
+        margin-top: 50px;
+        margin-left: 85px;
+        position: relative;
+        left: -8px;
+    }
+    
+
+    .sobre {
+        display: block;
+        align-items: 0;
+        position: relative;
+        
+    }
+
+    h2 {
+        position: relative;
+        bottom: 0;
+        left: 78px;
+        color: rgb(59, 59, 165);
+        margin-top: 35px;
+    }
+
+    .imagem, .produtos h3 {
+        display: grid;
+        grid-template-columns: repeat(2, 43%);
+        margin-top: 35px;
+        position: relative;
+        left: 12%;
+    }
+
+    .produtos {
+        width: 100%;
+        max-width: 650px;
+    }
+
+    button {
+        width: 90%;
+        padding:5px 0;
+        margin-top: 15px;
+        border: none;
+        color: #fff;
+        background-color: rgb(59, 59, 165);
+        font-size: 16px;
+        font-weight: bold;
+        cursor: pointer;
+        border-radius: 4px;
+    }
+
+    button {
+        position: relative;
+        right: 25px;
+        margin-bottom: 25px;
+    }
+
+    article img  {
+        width: 300px;
+        height: 300px;
+        position: relative;
+        right: 20px;
+    }
+
+    article h3{
+        position: relative;
+        
+    }
+
+}
+
